@@ -86,7 +86,7 @@ with col_c:
 with st.expander("ℹ️ About this model"):
     st.write("""
     This is a Convolutional Neural Network trained from scratch on the **CIFAR-10** dataset,
-    achieving **76% accuracy** on the held-out test set.
+    achieving **86% accuracy** on the held-out test set.
     It can classify images into 10 categories:
     """)
     st.write(", ".join([f"{EMOJIS[c]} {c}" for c in CLASS_NAMES]))
